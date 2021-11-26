@@ -14,7 +14,7 @@ _Para poder ver tu pagina:_
 
 _Crear un nuevo modelo:_
 ```
- php artisan serve make:model Author -mcr
+ php artisan make:model Author -mcr
 ```
 - m: crea la migracion
 - c: crea el controlador
@@ -26,6 +26,11 @@ _Ejecutar las migraciones:_
 ```
 
 _Guarda la fecha de migracion de una tabla:_
+```
+$table->date('created_at');
+```
+
+_:_
 ```
 $table->date('created_at');
 ```
