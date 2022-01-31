@@ -12,6 +12,11 @@ _Para poder ver tu pagina:_
  php artisan serve
 ```
 
+_Crear vendor:_
+```
+ composer install
+```
+
 _Crear un nuevo modelo:_
 ```
  php artisan make:model Author -mcr
