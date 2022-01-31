@@ -12,9 +12,14 @@ _Para poder ver tu pagina:_
  php artisan serve
 ```
 
-_Crear vendor:_
+_Crear Vendor:_
 ```
  composer install
+```
+
+_Crear Key:_
+```
+ php artisan key:generate
 ```
 
 _Crear un nuevo modelo:_
