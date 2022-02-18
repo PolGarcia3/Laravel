@@ -22,6 +22,11 @@ _Crear Key:_
  php artisan key:generate
 ```
 
+_Crear almacenamiento:_
+```
+php artisan storage:link
+```
+
 _Crear un nuevo modelo:_
 ```
  php artisan make:model Author -mcr
